@@ -57,6 +57,6 @@ public class Rectangles {
         perimeter = (side1 * 2) + (side2 * 2);
         diagonal = sqrt((pow(side1, 2) + pow(side2, 2)));
         //output
-        System.out.printf("%5s %10.2f %5s %10.2f %5s %10.2f %5s %10.2f %5s %10.2f", "Side 1:", side1, "\nSide 2:", side2, "\nArea:", area, "\nPerimeter:", perimeter, "\nDiagonal:", + diagonal);
+        System.out.printf("%5s %10.2f %5s %10.2f %5s %12.2f %5s %7.2f %5s %8.2f", "Side 1:", side1, "\nSide 2:", side2, "\nArea:", area, "\nPerimeter:", perimeter, "\nDiagonal:", + diagonal);
     }
 }
